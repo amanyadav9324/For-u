@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
+
+
+
 body {
   height: 100vh;
   display: flex;
@@ -16,8 +19,11 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
+/*  min-width: 800px; */
+  
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
   position: absolute;
 }
 
@@ -33,7 +39,7 @@ body {
   padding: 10px;
 }
 .paper.image p {
-  font-size: 60px;
+  font-size: 30px;
 }
 
 img {
@@ -64,5 +70,3 @@ p {
   user-select: none;
   filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
-
-/* this is ultimate */
